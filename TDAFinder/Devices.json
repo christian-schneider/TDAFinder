@@ -351,12 +351,12 @@
     },
     {
         "cdplayer": "MARANTZ CD-12",
-        "converter": "TDA1541A-S1 (single Crown)",
+        "converter": "TDA1541A-S1 (Single Crown)",
         "cdmechanism": "Philips CDM-1"
     },
     {
         "cdplayer": "MARANTZ CD7",
-        "converter": "2x TDA1541A-S2 (double crown)",
+        "converter": "2x TDA1541A-S2 (Double Crown)",
         "cdmechanism": "CDM 12.3 PRO"
     },
     {
@@ -1086,7 +1086,7 @@
     },
     {
         "cdplayer": "SUDGEN CDT-1",
-        "converter": "Philips TDA1541AS1 (single crown)",
+        "converter": "Philips TDA1541AS1 (Single Crown)",
         "cdmechanism": ""
     },
     {

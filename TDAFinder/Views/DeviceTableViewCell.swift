@@ -12,18 +12,32 @@ class DeviceTableViewCell: UITableViewCell {
 
     var device: Device?
 
+    let gold = UIColor(red: 252.0/255.0, green: 194.0/255.0, blue: 0, alpha: 1.0)
+    let silver = UIColor(red: 192/255, green: 192/255, blue: 192/255, alpha: 1.0)
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-
     override func layoutSubviews() {
 
         super.layoutSubviews()
         if let device = device {
+            backgroundColor = .darkGray
             textLabel!.text = device.title
+            textLabel?.textColor = .white
             detailTextLabel!.text = device.converter
+            detailTextLabel?.textColor = .white
+            imageView?.image = nil
+            if device.converter.contains("Single Crown") {
+                textLabel?.textColor = silver
+                imageView?.image = UIImage(named: "Crown")
+            }
+            if device.converter.contains("Double Crown") {
+                textLabel?.textColor = gold
+                imageView?.image = UIImage(named: "Crown")
+            }
         }
     }
 

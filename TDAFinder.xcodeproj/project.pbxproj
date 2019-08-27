@@ -26,6 +26,7 @@
 		69D59DD92315088500DDB053 /* DevicesReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD82315088500DDB053 /* DevicesReducer.swift */; };
 		69D59DDC23150BF900DDB053 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */; };
 		69D59DE02315174400DDB053 /* SearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDF2315174400DDB053 /* SearchAction.swift */; };
+		69D59DE323154D5E00DDB053 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DE223154D5E00DDB053 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		69D59DD82315088500DDB053 /* DevicesReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesReducer.swift; sourceTree = "<group>"; };
 		69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 		69D59DDF2315174400DDB053 /* SearchAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAction.swift; sourceTree = "<group>"; };
+		69D59DE123151D0D00DDB053 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		69D59DE223154D5E00DDB053 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		A0DCB135BB9CCFD9A2598756 /* Pods-TDAFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDAFinder.release.xcconfig"; path = "Target Support Files/Pods-TDAFinder/Pods-TDAFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +90,7 @@
 		69D59DA92314EDBF00DDB053 /* TDAFinder */ = {
 			isa = PBXGroup;
 			children = (
+				69D59DE123151D0D00DDB053 /* README.md */,
 				69D59DC42315064900DDB053 /* Main */,
 				69D59DC72315069700DDB053 /* ViewControllers */,
 				69D59DDA23150BDF00DDB053 /* Views */,
@@ -106,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				69D59DBF2314FBAC00DDB053 /* UserDefaults+Extensions.swift */,
+				69D59DE223154D5E00DDB053 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				69D59DD3231507AC00DDB053 /* AppReducer.swift in Sources */,
 				69D59DC02314FBAC00DDB053 /* UserDefaults+Extensions.swift in Sources */,
 				69D59DAB2314EDBF00DDB053 /* AppDelegate.swift in Sources */,
+				69D59DE323154D5E00DDB053 /* String+Extensions.swift in Sources */,
 				69D59DCD231506F000DDB053 /* AppState.swift in Sources */,
 				69D59DC62315065700DDB053 /* AppRouter.swift in Sources */,
 				69D59DC32314FC0800DDB053 /* Device.swift in Sources */,
