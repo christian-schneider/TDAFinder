@@ -1,0 +1,1187 @@
+[
+    {
+        "cdplayer": "ABBINGDON AMR CD-77",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Sony"
+    },
+    {
+        "cdplayer": "ACOUSTIC RESEARCH CD-06SE",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "ACOUSTIC RESEARCH CD-06SE",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "ADCOM GCD-575",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "AKSS-212B"
+    },
+    {
+        "cdplayer": "ADCOM GCD-600",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "KSS"
+    },
+    {
+        "cdplayer": "AIWA DX-M45",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-4/25"
+    },
+    {
+        "cdplayer": "ARCAM ALPHA",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "ARCAM ALPHA 5",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-9/44"
+    },
+    {
+        "cdplayer": "ARCAM ALPHA 5 PLUS",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-9"
+    },
+    {
+        "cdplayer": "ARCAM ALPHA PLUS",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "ARCAM DELTA 70",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "ARCAM DELTA 70.2",
+        "converter": "Philips TDA1541-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-4/11 / CDM-4/31"
+    },
+    {
+        "cdplayer": "ARCAM DELTA BOX 1",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "ARCAM DELTA BOX 2",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "ARISTON CD PLAYER",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "Bang & Olufsen Beogram CDX2",
+        "converter": "Philips TDA1541A & SAA7220",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "Bang & Olufsen Beogram CD3300",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "Bang & Olufsen CD5500",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "BEARD DAP-1",
+        "converter": "3 x Philips TDA1541A & YM3623B",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "BLAUPUNKT CP-2850",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "BRINKMANN ZENITH",
+        "converter": "Philips TDA1541 & CXD1076",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "California Audio Labs Aria",
+        "converter": "Philips TDA1541A & SAA7220",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "California Audio Labs Aria Delta",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "California Audio Labs Tempest II",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "California Audio Labs Tercet",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "CAMBRIDGE AUDIO CD1",
+        "converter": "6 x TDA1540 / 3 x Philips TDA1541",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "CAMBRIDGE AUDIO CD2",
+        "converter": "4 x TDA1541 & SAA7220",
+        "cdmechanism": "CDM-2/10"
+    },
+    {
+        "cdplayer": "Cambridge Audio CD3",
+        "converter": "4 x TDA1541",
+        "cdmechanism": "Philips CDM1 MKII"
+    },
+    {
+        "cdplayer": "Cambridge Audio DAC 3 D/A",
+        "converter": "4 x Philips TDA1541A-S1",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "Cary Audio Design CAD-855",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "CREEK CD60",
+        "converter": "Philips TDA1541A-S1 & SAA7220P/B",
+        "cdmechanism": "CDM-4/14"
+    },
+    {
+        "cdplayer": "DUAL CD 5150 RC",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "DUGOOD GLORY YEAR",
+        "converter": "Philips TDA1541A & SAA7220",
+        "cdmechanism": "VAM 1201"
+    },
+    {
+        "cdplayer": "EMT 981 PROFESSIONAL",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "GRUNDIG CD 35 X-Version",
+        "converter": "1 x Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/29"
+    },
+    {
+        "cdplayer": "GRUNDIG CD-903 FineArts",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "GRUNDIG CD 8100",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/29 / CDM-4/11"
+    },
+    {
+        "cdplayer": "GRUNDIG CD 8200",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "GRUNDIG CD 8400",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "GRUNDIG CD 8400 Mk II",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "GRUNDIG CD-9000 FineArts",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-2/29 / CDM-4/11"
+    },
+    {
+        "cdplayer": "GRUNDIG CD9009",
+        "converter": "2xTDA1541A/S1",
+        "cdmechanism": "CDM1mkII"
+    },
+    {
+        "cdplayer": "Kinergetics Research KCD-20 (New)",
+        "converter": "Philips TDA1541A-R1",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "Kinergetics Research KCD-30",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4"
+    },
+    {
+        "cdplayer": "LECTOR CDP 3T",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM 12"
+    },
+    {
+        "cdplayer": "LECTOR DIGICODE",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "LUXMAN D-500X&™s II",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-3"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB460",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB465",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB470",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB471",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB472",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB473",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB560",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB582",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB630",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MAGNAVOX CDB650",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MARANTZ CD-5L",
+        "converter": "1 x Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "MARANTZ CD-40",
+        "converter": "Philips TDA1541A-R1",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MARANTZ CD-50",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "MARANTZ CD-56",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "MARANTZ CD-60",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "MARANTZ CD-65",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MARANTZ CD-65DX",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "MARANTZ CD-65 Gold",
+        "converter": "Philips TDA1541-S1 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MARANTZ CD65 Mk II",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "MARANTZ CD-75",
+        "converter": "Philips TDA1541 & SAA7220",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "MARANTZ CD-75DX",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "MARANTZ CD75 Mk II",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "MARANTZ CD-84",
+        "converter": "2 x TDA1540 & SAA7030",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MARANTZ CD-12",
+        "converter": "TDA1541A-S1 (single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MARANTZ CD7",
+        "converter": "2x TDA1541A-S2 (double crown)",
+        "cdmechanism": "CDM 12.3 PRO"
+    },
+    {
+        "cdplayer": "MARANTZ CD80",
+        "converter": "Philips TDA1541A/S1/Q",
+        "cdmechanism": "CDM1mkII"
+    },
+    {
+        "cdplayer": "MARANTZ CD-85",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "MARANTZ CD880J",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "MARANTZ CD94",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM1"
+    },
+    {
+        "cdplayer": "MARANTZ CDA 94",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "MARANTZ CD94mkII",
+        "converter": "Philips TDA1541A/S1",
+        "cdmechanism": "Philips CDM1"
+    },
+    {
+        "cdplayer": "MARANTZ CD-95",
+        "converter": "2 x Philips TDA1541A-S1 + 2 x SAA7220P/B",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MARANTZ CD-99SE",
+        "converter": "2 x TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MARANTZ CD-99SE Limited",
+        "converter": "2 x Philips TDA1541A-S1 (Double Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MARANTZ PROJECT D-1",
+        "converter": "2 x TDA1541A-S2 (Double Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "MARANTZ CD273",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MARANTZ CD583",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MARANTZ CD650",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "MARANTZ CD873",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "MARANTZ CD883",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MARANTZ CDV780",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "McCORMACK PRISM II",
+        "converter": "Philips TDA1541A-R1 & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MCINTOSH MCD7005",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "CDM-2/10"
+    },
+    {
+        "cdplayer": "MCINTOSH MCD7007",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "Meridian 206 mkII",
+        "converter": "Philips TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "MERIDIAN 206",
+        "converter": "TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "MERIDIAN 207 (16-bit)",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "CDM-1 / CDM-4"
+    },
+    {
+        "cdplayer": "MICRO CD-M2",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MICRO CD-M100",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MICRO CD-M2000X",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "MICROMEGA CD F1 Premium",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-1 Mk II / CDM-4/26"
+    },
+    {
+        "cdplayer": "MICROMEGA CD F1 Pro",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/29 / CDM-4/25"
+    },
+    {
+        "cdplayer": "MISSION PCM II",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "MISSION PCM4000",
+        "converter": "Philips TDA1541-S1",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "MISSION PCM7000",
+        "converter": "Philips TDA1541-S1",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "MOD SQUAD PRISM",
+        "converter": "Philips TDA1541 & SAA7220",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "MOD SQUAD PRISM II",
+        "converter": "Philips TDA1541A-R1 & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "MUSICAL FIDELITY DIGILOG",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "NAIM AUDIO CD1",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "NAIM AUDIO CD2",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-9"
+    },
+    {
+        "cdplayer": "NAIM AUDIO CD3",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-9"
+    },
+    {
+        "cdplayer": "NAIM AUDIO CDI",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-4/27 / CDM-9 Pro"
+    },
+    {
+        "cdplayer": "NAIM AUDIO CDS1",
+        "converter": "Philips TDA1541-S1 (Single Crown)",
+        "cdmechanism": "CDM-4/25"
+    },
+    {
+        "cdplayer": "NAKAMICHI 1000p",
+        "converter": "2 x Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "NAKAMICHI CDC-3A",
+        "converter": "Philips TDA1541A & CXD1088",
+        "cdmechanism": "Pioneer PWY1009 / PWY1010"
+    },
+    {
+        "cdplayer": "NAKAMICHI CDC-4A",
+        "converter": "Philips TDA1541A-S1",
+        "cdmechanism": "Pioneer PWY1009 / PWY1010"
+    },
+    {
+        "cdplayer": "NAKAMICHI DA-101p",
+        "converter": "2 x Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "NAKAMICHI DA-111p",
+        "converter": "2 x Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "NAKAMICHI DAC-101 Mobile",
+        "converter": "2 x Philips TDA1541A-S1 & YM3414 & PD0037",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "NAKAMICHI OMS-20",
+        "converter": "Philips TDA1541A & CXD1088",
+        "cdmechanism": "KSS-152A"
+    },
+    {
+        "cdplayer": "NAKAMICHI CDP-2E",
+        "converter": "Philips TDA1541A& CXD1088",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "NEC CD-10",
+        "converter": "2 x TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "NEC CD-620",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "NEC CD-720",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "NEC CD-730",
+        "converter": "2 x Philips TDA1541A",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "NEC CD-816",
+        "converter": "2 x TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "NEC CD-830DS",
+        "converter": "2 x TDA1541A-S1 (Single Crown)",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "ORELLE CD-100",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "ORELLE CD-100e",
+        "converter": "Philips TDA1541A / TDA1545A",
+        "cdmechanism": "Philips CDM 12.1 / Panasonic"
+    },
+    {
+        "cdplayer": "ORELLE CD-160",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "ORELLE CD100SE",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "PHILCO CD2471",
+        "converter": "Philips TDA1541-R1 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD-60",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "PHILIPS CD-80",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "PHILIPS CD-85",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "PHILIPS CD160",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "PHILIPS CD207",
+        "converter": "Philips TDA1541 & SAA7220P/A & TDA1542",
+        "cdmechanism": "Philips CDM-2-P"
+    },
+    {
+        "cdplayer": "PHILIPS CD304 Mk II",
+        "converter": "Philips TDA1541 & SAA7220P/A & SAA7210P",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "PHILIPS CD360",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-2/29"
+    },
+    {
+        "cdplayer": "PHILIPS CD371",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2/29 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD372",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "PHILIPS CD373",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD380",
+        "converter": "TDA1543 & SAA7220",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD450",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "PHILIPS CD460",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "PHILIPS CD465",
+        "converter": "Philips TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "PHILIPS CD470",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD471",
+        "converter": "Philips TDA1541-R1 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD472",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD473",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD480",
+        "converter": "Philips TDA1541 / TDA1543 & SAA7220",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD560",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "PHILIPS CD580",
+        "converter": "Philips TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "PHILIPS CD581",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD582",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD584",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD620",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD630",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CD640",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "PHILIPS CD650",
+        "converter": "Philips TDA1541 & SAA7220P/A & SAA7210P",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/25"
+    },
+    {
+        "cdplayer": "PHILIPS CD660",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD670",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD680",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD770",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD771",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4/11"
+    },
+    {
+        "cdplayer": "PHILIPS CD780",
+        "converter": "Philips TDA1541 & SAA7220",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "PHILIPS CD820",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "PHILIPS CD782",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "PHILIPS CD830",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "PHILIPS CD880",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "PHILIPS CD960",
+        "converter": "Philips TDA1541 & SAA7220P/A & SAA7210P",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "PHILIPS CDC586",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/20"
+    },
+    {
+        "cdplayer": "PHILIPS CDC875",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "PHILIPS CDV496",
+        "converter": "Philips TDA1541A & SAA7220P/B & TDA1542",
+        "cdmechanism": "Philips CDM-10"
+    },
+    {
+        "cdplayer": "PHILIPS DAC960",
+        "converter": "1 x Philips TDA1541A",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "PHILIPS LHH1000",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "PIONEER PD-8070",
+        "converter": "Philips TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "PROTON AC-300 Mk II",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "PROTON AC-620",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/19 Composite"
+    },
+    {
+        "cdplayer": "QUAD 66",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-9"
+    },
+    {
+        "cdplayer": "RADFORD WS1",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "RADIOLA CD1006",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "REVOX B 126",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-1 / CDM-4/27"
+    },
+    {
+        "cdplayer": "REVOX B 226",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "REVOX B 226 Mk II / Signature",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "REVOX B 226 S / E",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II / CDM-4/26"
+    },
+    {
+        "cdplayer": "ROTEL RCD-820B",
+        "converter": "TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "ROTEL RCD-855",
+        "converter": "Philips TDA1541A-S1",
+        "cdmechanism": "CDM-4/19"
+    },
+    {
+        "cdplayer": "ROTEL RCD-955",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "ROTEL RCD-955AX",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4"
+    },
+    {
+        "cdplayer": "SAE D103",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2 / CDM-4"
+    },
+    {
+        "cdplayer": "SANSUI CD-X211E",
+        "converter": "Philips TDA1541A-R1 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-4/19"
+    },
+    {
+        "cdplayer": "SCHNEIDER CD4006",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/10"
+    },
+    {
+        "cdplayer": "SHERWOOD CDP301R",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "SONY CDP-68",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "SONY CDP-207ESD",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "SONY CDP-222ESD",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-227ESD (Old ver.)",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-227ESD (New ver.)",
+        "converter": "2 x Philips TDA1541A-R1 & CXD1144",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-301V",
+        "converter": "Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-307ESD",
+        "converter": "1 x Philips TDA1541A & CXD1088A",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "SONY CDP-333ESD",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "Sony BU-1E"
+    },
+    {
+        "cdplayer": "SONY CDP-337ESD",
+        "converter": "2 x Philips TDA1541A & CXD1144",
+        "cdmechanism": "KSS-190A"
+    },
+    {
+        "cdplayer": "SONY CDP-505ESD",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-507ESD",
+        "converter": "2 x Philips TDA1541A-R1 & CXD1144",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-555ESD",
+        "converter": "1 x Philips TDA1541A & CXD1088Q",
+        "cdmechanism": "Sony BU-1E"
+    },
+    {
+        "cdplayer": "SONY CDP-605ESD",
+        "converter": "Philips TDA1541 & CXD1088",
+        "cdmechanism": "Sony BU-1E"
+    },
+    {
+        "cdplayer": "SONY CDP-705ESD",
+        "converter": "1 x Philips TDA1541A & CXD1088Q",
+        "cdmechanism": "Sony BU-1E"
+    },
+    {
+        "cdplayer": "SONY CDP-710",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-150A / KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-750",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-910",
+        "converter": "1 x Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-151A"
+    },
+    {
+        "cdplayer": "SONY CDP-950",
+        "converter": "1 x Philips TDA1541A & CXD1088A",
+        "cdmechanism": "KSS-150A / KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-C100",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-M75",
+        "converter": "Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-150A / KSS-210A"
+    },
+    {
+        "cdplayer": "SONY CDP-M95",
+        "converter": "Philips TDA1541 & CXD1088",
+        "cdmechanism": "KSS-150A / KSS-210A"
+    },
+    {
+        "cdplayer": "SONY DAS-R1",
+        "converter": "2 x Philips TDA1541A-S1 & CXD1144",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "SONY LDP-550",
+        "converter": "Philips TDA1541",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "SPECTRAL SDR-1000",
+        "converter": "2 x Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "STUDER A727",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1"
+    },
+    {
+        "cdplayer": "STUDER A730",
+        "converter": "TDA154 1A-S1(Double Crown)",
+        "cdmechanism": "Philips CDM-3"
+    },
+    {
+        "cdplayer": "SUDGEN CDT-1",
+        "converter": "Philips TDA1541AS1 (single crown)",
+        "cdmechanism": ""
+    },
+    {
+        "cdplayer": "SUGDEN MASTERCLASS",
+        "converter": "Philips TDA1541A-S-Crown & SAA7220",
+        "cdmechanism": "CDM 12.1"
+    },
+    {
+        "cdplayer": "SUGDEN SDA-1",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "SUGDEN SDT-1",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-9/44"
+    },
+    {
+        "cdplayer": "SUGDEN SDT-1SE",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-9 Pro"
+    },
+    {
+        "cdplayer": "SYLVANIA CD1460",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "SYLVANIA CD1470",
+        "converter": "Philips TDA1541",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "SYLVANIA CD1473",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "T+A CD1000 AC",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/29"
+    },
+    {
+        "cdplayer": "TANDBERG TCP 3015A 16 bit",
+        "converter": "Philips TDA1541 & SAA7220",
+        "cdmechanism": "Philips CDM-2"
+    },
+    {
+        "cdplayer": "TEAC CD-Z5000",
+        "converter": "2 x TDA1541A",
+        "cdmechanism": "KSS-210A"
+    },
+    {
+        "cdplayer": "TEAC CD-Z5000",
+        "converter": "2 x Philips TDA1541A & PD0050",
+        "cdmechanism": "KSS-210A"
+    },
+    {
+        "cdplayer": "TEAC D-500",
+        "converter": "2 x TDA1541A-S1 & SM5813",
+        "cdmechanism": "converter"
+    },
+    {
+        "cdplayer": "TESLA MC 902",
+        "converter": "Philips TDA1541 & SAA7220P/A",
+        "cdmechanism": "Philips CDM-2/29"
+    },
+    {
+        "cdplayer": "TESLA MC 911",
+        "converter": "Philips TDA1541A & SAA7220P/B",
+        "cdmechanism": "Philips CDM-4/25"
+    },
+    {
+        "cdplayer": "TOSHIBA XR-9118",
+        "converter": "Philips TDA1541A",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "TOSHIBA XR-9128",
+        "converter": "Philips TDA1541A-R1",
+        "cdmechanism": "Philips CDM-4/11"
+    },
+    {
+        "cdplayer": "WOODSIDE WS2",
+        "converter": "Philips TDA1541A-S1 (Single Crown)",
+        "cdmechanism": "Philips CDM-1 Mk II"
+    },
+    {
+        "cdplayer": "YAMAHA CDX-630E",
+        "converter": "Philips TDA1541A & CXD1088",
+        "cdmechanism": "KSS-150A"
+    },
+    {
+        "cdplayer": "ZANDEN MODEL 5000",
+        "converter": "Philips TDA1541A-S2 (Double Crown)",
+        "cdmechanism": "converter"
+    }
+]

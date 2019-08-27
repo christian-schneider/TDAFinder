@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5355C07251B2D76F6B7D1D7B /* Pods_TDAFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7D838D02786A5C90CDCC75 /* Pods_TDAFinder.framework */; };
+		69D59DAB2314EDBF00DDB053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DAA2314EDBF00DDB053 /* AppDelegate.swift */; };
+		69D59DAD2314EDBF00DDB053 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DAC2314EDBF00DDB053 /* DevicesViewController.swift */; };
+		69D59DB02314EDBF00DDB053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59DAE2314EDBF00DDB053 /* Main.storyboard */; };
+		69D59DB22314EDC000DDB053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D59DB12314EDC000DDB053 /* Assets.xcassets */; };
+		69D59DB52314EDC000DDB053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59DB32314EDC000DDB053 /* LaunchScreen.storyboard */; };
+		69D59DBD2314EDDF00DDB053 /* Devices.json in Resources */ = {isa = PBXBuildFile; fileRef = 69D59DBC2314EDDF00DDB053 /* Devices.json */; };
+		69D59DC02314FBAC00DDB053 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DBF2314FBAC00DDB053 /* UserDefaults+Extensions.swift */; };
+		69D59DC32314FC0800DDB053 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DC22314FC0800DDB053 /* Device.swift */; };
+		69D59DC62315065700DDB053 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DC52315065700DDB053 /* AppRouter.swift */; };
+		69D59DCD231506F000DDB053 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DCC231506F000DDB053 /* AppState.swift */; };
+		69D59DCF2315070D00DDB053 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DCE2315070D00DDB053 /* RoutingState.swift */; };
+		69D59DD12315071900DDB053 /* DevicesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD02315071900DDB053 /* DevicesState.swift */; };
+		69D59DD3231507AC00DDB053 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD2231507AC00DDB053 /* AppReducer.swift */; };
+		69D59DD5231507C900DDB053 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD4231507C900DDB053 /* RoutingReducer.swift */; };
+		69D59DD72315084C00DDB053 /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD62315084C00DDB053 /* RoutingAction.swift */; };
+		69D59DD92315088500DDB053 /* DevicesReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DD82315088500DDB053 /* DevicesReducer.swift */; };
+		69D59DDC23150BF900DDB053 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */; };
+		69D59DE02315174400DDB053 /* SearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDF2315174400DDB053 /* SearchAction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DE8A965E1954CB6DF91C3AC /* Pods-TDAFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDAFinder.debug.xcconfig"; path = "Target Support Files/Pods-TDAFinder/Pods-TDAFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		4E7D838D02786A5C90CDCC75 /* Pods_TDAFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDAFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D59DA72314EDBF00DDB053 /* TDAFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDAFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D59DAA2314EDBF00DDB053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69D59DAC2314EDBF00DDB053 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		69D59DAF2314EDBF00DDB053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D59DB12314EDC000DDB053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D59DB42314EDC000DDB053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D59DB62314EDC000DDB053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D59DBC2314EDDF00DDB053 /* Devices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Devices.json; sourceTree = "<group>"; };
+		69D59DBF2314FBAC00DDB053 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		69D59DC22314FC0800DDB053 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		69D59DC52315065700DDB053 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		69D59DCC231506F000DDB053 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		69D59DCE2315070D00DDB053 /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		69D59DD02315071900DDB053 /* DevicesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesState.swift; sourceTree = "<group>"; };
+		69D59DD2231507AC00DDB053 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		69D59DD4231507C900DDB053 /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		69D59DD62315084C00DDB053 /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		69D59DD82315088500DDB053 /* DevicesReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesReducer.swift; sourceTree = "<group>"; };
+		69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		69D59DDF2315174400DDB053 /* SearchAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAction.swift; sourceTree = "<group>"; };
+		A0DCB135BB9CCFD9A2598756 /* Pods-TDAFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDAFinder.release.xcconfig"; path = "Target Support Files/Pods-TDAFinder/Pods-TDAFinder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D59DA42314EDBF00DDB053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5355C07251B2D76F6B7D1D7B /* Pods_TDAFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D59D9E2314EDBF00DDB053 = {
+			isa = PBXGroup;
+			children = (
+				69D59DA92314EDBF00DDB053 /* TDAFinder */,
+				69D59DA82314EDBF00DDB053 /* Products */,
+				D8D59FF9D8AC50D3534D2DAF /* Pods */,
+				D2C3C0E4064146F327AA102D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69D59DA82314EDBF00DDB053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DA72314EDBF00DDB053 /* TDAFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D59DA92314EDBF00DDB053 /* TDAFinder */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DC42315064900DDB053 /* Main */,
+				69D59DC72315069700DDB053 /* ViewControllers */,
+				69D59DDA23150BDF00DDB053 /* Views */,
+				69D59DC8231506C200DDB053 /* React */,
+				69D59DC12314FBFA00DDB053 /* Models */,
+				69D59DBE2314FB9700DDB053 /* Extensions */,
+				69D59DAE2314EDBF00DDB053 /* Main.storyboard */,
+				69D59DB12314EDC000DDB053 /* Assets.xcassets */,
+				69D59DB32314EDC000DDB053 /* LaunchScreen.storyboard */,
+				69D59DB62314EDC000DDB053 /* Info.plist */,
+				69D59DBC2314EDDF00DDB053 /* Devices.json */,
+			);
+			path = TDAFinder;
+			sourceTree = "<group>";
+		};
+		69D59DBE2314FB9700DDB053 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DBF2314FBAC00DDB053 /* UserDefaults+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		69D59DC12314FBFA00DDB053 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DC22314FC0800DDB053 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69D59DC42315064900DDB053 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DAA2314EDBF00DDB053 /* AppDelegate.swift */,
+				69D59DC52315065700DDB053 /* AppRouter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		69D59DC72315069700DDB053 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DAC2314EDBF00DDB053 /* DevicesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		69D59DC8231506C200DDB053 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DC9231506C800DDB053 /* States */,
+				69D59DCA231506CD00DDB053 /* Actions */,
+				69D59DCB231506D300DDB053 /* Reducers */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		69D59DC9231506C800DDB053 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DCC231506F000DDB053 /* AppState.swift */,
+				69D59DCE2315070D00DDB053 /* RoutingState.swift */,
+				69D59DD02315071900DDB053 /* DevicesState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		69D59DCA231506CD00DDB053 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DD62315084C00DDB053 /* RoutingAction.swift */,
+				69D59DDF2315174400DDB053 /* SearchAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		69D59DCB231506D300DDB053 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DD2231507AC00DDB053 /* AppReducer.swift */,
+				69D59DD4231507C900DDB053 /* RoutingReducer.swift */,
+				69D59DD82315088500DDB053 /* DevicesReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		69D59DDA23150BDF00DDB053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2C3C0E4064146F327AA102D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E7D838D02786A5C90CDCC75 /* Pods_TDAFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D59FF9D8AC50D3534D2DAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE8A965E1954CB6DF91C3AC /* Pods-TDAFinder.debug.xcconfig */,
+				A0DCB135BB9CCFD9A2598756 /* Pods-TDAFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D59DA62314EDBF00DDB053 /* TDAFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D59DB92314EDC000DDB053 /* Build configuration list for PBXNativeTarget "TDAFinder" */;
+			buildPhases = (
+				132906CB3368B3D387D1AFE0 /* [CP] Check Pods Manifest.lock */,
+				69D59DA32314EDBF00DDB053 /* Sources */,
+				69D59DA42314EDBF00DDB053 /* Frameworks */,
+				69D59DA52314EDBF00DDB053 /* Resources */,
+				08F6E34E4083E370146806C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDAFinder;
+			productName = TDAFinder;
+			productReference = 69D59DA72314EDBF00DDB053 /* TDAFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D59D9F2314EDBF00DDB053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = gerzonic;
+				TargetAttributes = {
+					69D59DA62314EDBF00DDB053 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 69D59DA22314EDBF00DDB053 /* Build configuration list for PBXProject "TDAFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D59D9E2314EDBF00DDB053;
+			productRefGroup = 69D59DA82314EDBF00DDB053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D59DA62314EDBF00DDB053 /* TDAFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D59DA52314EDBF00DDB053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D59DB52314EDC000DDB053 /* LaunchScreen.storyboard in Resources */,
+				69D59DB22314EDC000DDB053 /* Assets.xcassets in Resources */,
+				69D59DB02314EDBF00DDB053 /* Main.storyboard in Resources */,
+				69D59DBD2314EDDF00DDB053 /* Devices.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F6E34E4083E370146806C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDAFinder/Pods-TDAFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDAFinder/Pods-TDAFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDAFinder/Pods-TDAFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		132906CB3368B3D387D1AFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDAFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D59DA32314EDBF00DDB053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D59DD92315088500DDB053 /* DevicesReducer.swift in Sources */,
+				69D59DD72315084C00DDB053 /* RoutingAction.swift in Sources */,
+				69D59DDC23150BF900DDB053 /* DeviceTableViewCell.swift in Sources */,
+				69D59DE02315174400DDB053 /* SearchAction.swift in Sources */,
+				69D59DCF2315070D00DDB053 /* RoutingState.swift in Sources */,
+				69D59DD12315071900DDB053 /* DevicesState.swift in Sources */,
+				69D59DAD2314EDBF00DDB053 /* DevicesViewController.swift in Sources */,
+				69D59DD3231507AC00DDB053 /* AppReducer.swift in Sources */,
+				69D59DC02314FBAC00DDB053 /* UserDefaults+Extensions.swift in Sources */,
+				69D59DAB2314EDBF00DDB053 /* AppDelegate.swift in Sources */,
+				69D59DCD231506F000DDB053 /* AppState.swift in Sources */,
+				69D59DC62315065700DDB053 /* AppRouter.swift in Sources */,
+				69D59DC32314FC0800DDB053 /* Device.swift in Sources */,
+				69D59DD5231507C900DDB053 /* RoutingReducer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69D59DAE2314EDBF00DDB053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D59DAF2314EDBF00DDB053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D59DB32314EDC000DDB053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D59DB42314EDC000DDB053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D59DB72314EDC000DDB053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69D59DB82314EDC000DDB053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D59DBA2314EDC000DDB053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE8A965E1954CB6DF91C3AC /* Pods-TDAFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEK9822PXX;
+				INFOPLIST_FILE = TDAFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.gerzonic.TDAFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69D59DBB2314EDC000DDB053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DCB135BB9CCFD9A2598756 /* Pods-TDAFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEK9822PXX;
+				INFOPLIST_FILE = TDAFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.gerzonic.TDAFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D59DA22314EDBF00DDB053 /* Build configuration list for PBXProject "TDAFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D59DB72314EDC000DDB053 /* Debug */,
+				69D59DB82314EDC000DDB053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D59DB92314EDC000DDB053 /* Build configuration list for PBXNativeTarget "TDAFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D59DBA2314EDC000DDB053 /* Debug */,
+				69D59DBB2314EDC000DDB053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D59D9F2314EDBF00DDB053 /* Project object */;
+}
