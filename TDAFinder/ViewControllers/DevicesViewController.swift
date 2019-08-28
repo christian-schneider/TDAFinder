@@ -24,13 +24,21 @@ class DevicesViewController: UIViewController {
     override func viewDidLoad() {
 
         super.viewDidLoad()
-        tableView.tableFooterView = UIView()
-        segmentedControl.tintColor = .lightGray
-        tableView.backgroundColor = .darkGray
-        navigationController?.navigationBar.backgroundColor = .darkGray
+
         view.backgroundColor = .darkGray
 
+        tableView.tableFooterView = UIView()
+        tableView.backgroundColor = .darkGray
+
+        segmentedControl.tintColor = .lightGray
+        segmentedControl.layer.borderColor = UIColor.darkGray.cgColor
         segmentedControl.addTarget(self, action: #selector(segmentedControlValueChanged(segment:)), for: .valueChanged)
+
+        searchBar.barTintColor = .darkGray
+        searchBar.returnKeyType = .done
+
+        self.title = "TDAFinder"
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
     }
 
 
@@ -43,6 +51,20 @@ class DevicesViewController: UIViewController {
             }
         }
         reloadFilteredDevices()
+
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(keyboardWillShow),
+            name: UIResponder.keyboardWillShowNotification,
+            object: nil
+        )
+
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(keyboardWillHide),
+            name: UIResponder.keyboardWillHideNotification,
+            object: nil
+        )
     }
 
 
@@ -50,6 +72,9 @@ class DevicesViewController: UIViewController {
 
         super.viewWillDisappear(animated)
         store.unsubscribe(self)
+
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
 
 
@@ -91,7 +116,29 @@ class DevicesViewController: UIViewController {
         }
         tableView.reloadData()
     }
-    
+
+
+    @objc func keyboardWillShow(_ notification: Notification) {
+
+        if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
+            let keyboardRectangle = keyboardFrame.cgRectValue
+
+            var contentInsets:UIEdgeInsets
+            if UIDevice.current.orientation.isPortrait {
+                contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardRectangle.height, right: 0.0);
+            }
+            else {
+                contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardRectangle.width, right: 0.0);
+            }
+            tableView.contentInset = contentInsets
+        }
+    }
+
+
+    @objc func keyboardWillHide(_ notification: Notification) {
+
+        tableView.contentInset = .zero
+    }
 }
 
 
@@ -101,11 +148,10 @@ extension DevicesViewController: UITableViewDelegate {
 
         if let devices = filteredDevices {
             let device = devices[indexPath.row]
-            print("show details for device: \(device)")
+            store.dispatch(SelectDetailAction(device: device))
+            store.dispatch(RoutingAction(destination: .detail))
         }
-        //
     }
-
 }
 
 
@@ -136,6 +182,19 @@ extension DevicesViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 
         store.dispatch(SearchAction(searchString: searchText))
+    }
+
+
+    func searchBarShouldEndEditing(_ searchBar: UISearchBar) -> Bool {
+
+        searchBar.resignFirstResponder()
+        return true
+    }
+
+
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        searchBar.resignFirstResponder()
     }
 }
 

@@ -12,6 +12,7 @@ struct AppState: StateType {
 
     let routingState:       RoutingState
     let devicesState:       DevicesState
+    let detailState:        DetailState
 }
 
 

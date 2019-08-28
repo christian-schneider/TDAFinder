@@ -13,6 +13,7 @@ enum RoutingDestination: String, CaseIterable {
 
     case none           = ""
     case devices        = "DevicesViewController"
+    case detail         = "DetailViewController"
 }
 
 

@@ -32,6 +32,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         initialSetup()
 
+        UITextField.appearance().keyboardAppearance = .dark
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = .darkGray
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).textColor = .white
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = .white
+
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().barTintColor = .darkGray
+        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).tintColor = .white
+
+        //navigationController?.navigationBar.barTintColor = .darkGray
+        //navigationController?.navigationBar.tintColor = .white
+
         return true
     }
 

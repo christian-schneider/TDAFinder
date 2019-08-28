@@ -27,6 +27,11 @@
 		69D59DDC23150BF900DDB053 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDB23150BF900DDB053 /* DeviceTableViewCell.swift */; };
 		69D59DE02315174400DDB053 /* SearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DDF2315174400DDB053 /* SearchAction.swift */; };
 		69D59DE323154D5E00DDB053 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DE223154D5E00DDB053 /* String+Extensions.swift */; };
+		69D59DE52316BF3E00DDB053 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DE42316BF3E00DDB053 /* DetailViewController.swift */; };
+		69D59DE72316C13E00DDB053 /* DetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DE62316C13E00DDB053 /* DetailState.swift */; };
+		69D59DE92316C17800DDB053 /* SelectDetailAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DE82316C17800DDB053 /* SelectDetailAction.swift */; };
+		69D59DEB2316C19700DDB053 /* DetailReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DEA2316C19700DDB053 /* DetailReducer.swift */; };
+		69D59DED2316C44500DDB053 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59DEC2316C44500DDB053 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		69D59DDF2315174400DDB053 /* SearchAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAction.swift; sourceTree = "<group>"; };
 		69D59DE123151D0D00DDB053 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		69D59DE223154D5E00DDB053 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		69D59DE42316BF3E00DDB053 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		69D59DE62316C13E00DDB053 /* DetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailState.swift; sourceTree = "<group>"; };
+		69D59DE82316C17800DDB053 /* SelectDetailAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDetailAction.swift; sourceTree = "<group>"; };
+		69D59DEA2316C19700DDB053 /* DetailReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailReducer.swift; sourceTree = "<group>"; };
+		69D59DEC2316C44500DDB053 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		A0DCB135BB9CCFD9A2598756 /* Pods-TDAFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDAFinder.release.xcconfig"; path = "Target Support Files/Pods-TDAFinder/Pods-TDAFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +121,7 @@
 			children = (
 				69D59DBF2314FBAC00DDB053 /* UserDefaults+Extensions.swift */,
 				69D59DE223154D5E00DDB053 /* String+Extensions.swift */,
+				69D59DEC2316C44500DDB053 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				69D59DAC2314EDBF00DDB053 /* DevicesViewController.swift */,
+				69D59DE42316BF3E00DDB053 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -156,6 +168,7 @@
 				69D59DCC231506F000DDB053 /* AppState.swift */,
 				69D59DCE2315070D00DDB053 /* RoutingState.swift */,
 				69D59DD02315071900DDB053 /* DevicesState.swift */,
+				69D59DE62316C13E00DDB053 /* DetailState.swift */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 			children = (
 				69D59DD62315084C00DDB053 /* RoutingAction.swift */,
 				69D59DDF2315174400DDB053 /* SearchAction.swift */,
+				69D59DE82316C17800DDB053 /* SelectDetailAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 				69D59DD2231507AC00DDB053 /* AppReducer.swift */,
 				69D59DD4231507C900DDB053 /* RoutingReducer.swift */,
 				69D59DD82315088500DDB053 /* DevicesReducer.swift */,
+				69D59DEA2316C19700DDB053 /* DetailReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -322,16 +337,21 @@
 			files = (
 				69D59DD92315088500DDB053 /* DevicesReducer.swift in Sources */,
 				69D59DD72315084C00DDB053 /* RoutingAction.swift in Sources */,
+				69D59DE92316C17800DDB053 /* SelectDetailAction.swift in Sources */,
 				69D59DDC23150BF900DDB053 /* DeviceTableViewCell.swift in Sources */,
 				69D59DE02315174400DDB053 /* SearchAction.swift in Sources */,
+				69D59DEB2316C19700DDB053 /* DetailReducer.swift in Sources */,
 				69D59DCF2315070D00DDB053 /* RoutingState.swift in Sources */,
 				69D59DD12315071900DDB053 /* DevicesState.swift in Sources */,
 				69D59DAD2314EDBF00DDB053 /* DevicesViewController.swift in Sources */,
+				69D59DE52316BF3E00DDB053 /* DetailViewController.swift in Sources */,
 				69D59DD3231507AC00DDB053 /* AppReducer.swift in Sources */,
 				69D59DC02314FBAC00DDB053 /* UserDefaults+Extensions.swift in Sources */,
+				69D59DED2316C44500DDB053 /* UIViewController+Extensions.swift in Sources */,
 				69D59DAB2314EDBF00DDB053 /* AppDelegate.swift in Sources */,
 				69D59DE323154D5E00DDB053 /* String+Extensions.swift in Sources */,
 				69D59DCD231506F000DDB053 /* AppState.swift in Sources */,
+				69D59DE72316C13E00DDB053 /* DetailState.swift in Sources */,
 				69D59DC62315065700DDB053 /* AppRouter.swift in Sources */,
 				69D59DC32314FC0800DDB053 /* Device.swift in Sources */,
 				69D59DD5231507C900DDB053 /* RoutingReducer.swift in Sources */,

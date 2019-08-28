@@ -13,7 +13,8 @@ func appReducer(action: Action, state: AppState?) -> AppState {
 
     return AppState(
         routingState: routingReducer(action: action, state: state?.routingState),
-        devicesState: devicesReducer(action: action, state: state?.devicesState)
+        devicesState: devicesReducer(action: action, state: state?.devicesState),
+        detailState: detailReducer(action: action, state: state?.detailState)
     )
 }
 
