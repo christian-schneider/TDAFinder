@@ -17,4 +17,3 @@ func appReducer(action: Action, state: AppState?) -> AppState {
         detailState: detailReducer(action: action, state: state?.detailState)
     )
 }
-

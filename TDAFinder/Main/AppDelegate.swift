@@ -41,9 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = .darkGray
         UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).tintColor = .white
 
-        //navigationController?.navigationBar.barTintColor = .darkGray
-        //navigationController?.navigationBar.tintColor = .white
-
         return true
     }
 
@@ -69,6 +66,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+
+    // MARK: - DB Setup
 
     func initialSetup() {
 
@@ -98,7 +97,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
-
 }
-

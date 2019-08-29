@@ -20,4 +20,3 @@ struct RoutingState: StateType {
         self.routingDestination = navigationState
     }
 }
-

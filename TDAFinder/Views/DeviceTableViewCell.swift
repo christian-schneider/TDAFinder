@@ -15,10 +15,6 @@ class DeviceTableViewCell: UITableViewCell {
     let gold = UIColor(red: 252.0/255.0, green: 194.0/255.0, blue: 0, alpha: 1.0)
     let silver = UIColor(red: 192/255, green: 192/255, blue: 192/255, alpha: 1.0)
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
 
     override func layoutSubviews() {
 
@@ -40,12 +36,4 @@ class DeviceTableViewCell: UITableViewCell {
             }
         }
     }
-
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

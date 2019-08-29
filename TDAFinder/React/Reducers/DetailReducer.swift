@@ -23,4 +23,3 @@ func detailReducer(action: Action, state: DetailState?) -> DetailState {
 
     return state
 }
-

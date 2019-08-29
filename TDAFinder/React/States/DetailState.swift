@@ -13,4 +13,3 @@ struct DetailState: StateType {
     var device: Device? = nil
     
 }
-

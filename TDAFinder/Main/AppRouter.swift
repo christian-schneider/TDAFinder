@@ -19,8 +19,6 @@ enum RoutingDestination: String, CaseIterable {
 
 final class AppRouter {
 
-    // let navigationController: SwipeNavigationController
-
     let navigationController: UINavigationController
 
 

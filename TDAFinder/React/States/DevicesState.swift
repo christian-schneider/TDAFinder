@@ -12,4 +12,3 @@ struct DevicesState: StateType {
 
     var searchString: String = ""
 }
-

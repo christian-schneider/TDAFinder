@@ -13,6 +13,8 @@ import ReSwift
 
 class DevicesViewController: UIViewController {
 
+    // MARK: - Outlets and Members
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
@@ -20,6 +22,9 @@ class DevicesViewController: UIViewController {
     var searchString: String = ""
 
     var filteredDevices: [Device]?
+
+
+    // MARK: - View Lifecycle
 
     override func viewDidLoad() {
 
@@ -78,6 +83,8 @@ class DevicesViewController: UIViewController {
     }
 
 
+    // MARK: - Filtering
+
     @objc func segmentedControlValueChanged(segment: UISegmentedControl) {
 
         reloadFilteredDevices()
@@ -118,6 +125,8 @@ class DevicesViewController: UIViewController {
     }
 
 
+    // MARK: - Keyboard handling
+
     @objc func keyboardWillShow(_ notification: Notification) {
 
         if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
@@ -142,6 +151,8 @@ class DevicesViewController: UIViewController {
 }
 
 
+// MARK: - UITableViewDelegate
+
 extension DevicesViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -154,6 +165,8 @@ extension DevicesViewController: UITableViewDelegate {
     }
 }
 
+
+// MARK: - UITableViewDataSource
 
 extension DevicesViewController: UITableViewDataSource {
 
@@ -176,6 +189,8 @@ extension DevicesViewController: UITableViewDataSource {
     }
 }
 
+
+// MARK: - UISearchBarDelegate
 
 extension DevicesViewController: UISearchBarDelegate {
 

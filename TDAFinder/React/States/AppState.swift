@@ -14,5 +14,3 @@ struct AppState: StateType {
     let devicesState:       DevicesState
     let detailState:        DetailState
 }
-
-
